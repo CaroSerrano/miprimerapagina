@@ -41,6 +41,9 @@ audio:focus {
     border: 3px solid rgb(249, 3, 179);
     border-style: dotted;
 }
+.greeting {
+    text-align: center;
+}
 
 .glaciar {
     display: flex;
