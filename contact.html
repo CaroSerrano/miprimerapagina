@@ -1,0 +1,68 @@
+<head>
+    <!-- Write your comments here -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css">
+    <title>Mi primera página web</title>
+</head>
+
+<body>
+    <header>
+        <div class="container-nav">
+            <nav class="navbar">
+                <a href="#" class="brand">Mi página web</a>
+                <ul class="nav-links">
+                    <li><a href="mi-primer-website.html">Inicio</a></li>
+                    <li><a href="about.html">Acerca de</a></li>
+                    <li><a href="services.html">Servicios</a></li>
+                    <li><a href="#">Contacto</a></li>
+                </ul>
+            </nav>
+            <button class="button-menu-toggle">Menu</button>
+        </div>
+    </header>
+    
+    
+    <main>
+        <div class="container">
+            <h1>Contacto</h1>
+            <p>¡Contáctanos para cualquier consulta o solicitud de información!</p>
+            <form id="myForm">
+                <label for="email">Correo electrónico:</label>
+                <input type="email" id="email" name="email" required>
+                <button type="submit">Enviar</button>
+            </form>
+            <a href="https://www.linkedin.com/in/paula-carolina-serrano-026b4a1a2/" target="_blank">
+                <img src="linkedin-icon.png" alt="Visita mi Linkedin" style="width:42px;height:42px;">
+            </a>
+            <!-- <button onclick="showAlert()">Cliquéame! Ah si, y con qué Ned? Con el mouse!</button> -->
+        </div>
+
+ 
+    </main>
+
+    <!--         <audio controls>
+            <source src="Well I Wonder.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+         </audio>
+        <img src="glaciar.jpg" width="700" height="400" alt="" /> -->
+
+    <!-- <button class="cliqueame" onclick="showAlert()">Cliquéame! Ah si, y con qué Ned?.</button> -->
+
+    <!--Vincular el archivo de javascript    -->
+    <script>
+        function showAlert() { alert('Hola esta es una alerta desde JavaScript!'); }
+    </script>
+    <!-- <form id="myForm">
+        <label for="email">Correo electrónico:</label>
+        <input type="email" id="email" name="email" required>
+        <button type="submit">Enviar</button>
+    </form> -->
+    <script src="script.js"></script>
+    <footer>
+        <h5>Pie de página</h5>
+        <button onClick="showAlert()" aria-label="Haz clic en mí">
+            ¡Haz clic en mí!
+
+        </button>
+    </footer>
+</body>
